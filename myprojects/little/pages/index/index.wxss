@@ -1,0 +1,28 @@
+/**index.wxss**/
+.list{
+  width:100%;
+  display:flex;
+  border-bottom:1rpx dashed #333;
+  padding:20rpx;
+}
+image{
+  width:200rpx;
+  height:200rpx;
+  border-radius:50%;
+}
+.text{
+  flex:1;
+  margin-left:20rpx;
+}
+.text text{
+  width:100%;
+  display:block;
+  line-height:100rpx;
+  color:red;
+  display:-webkit-box;
+  -webkit-box-orient:vertical;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  word-break:break-all;
+  -webkit-line-clamp:2;
+}

@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<view class="container">
+    <view bindtap="DClick" class="list" wx:key="{{index}}" wx:for="{{list}}" data-index='{{index}}'>
+        <block>
+            <image src="{{item.image}}" />
+            <view class="text">
+                <text>{{item.name}}</text>
+            </view>
+        </block>
+    </view>
+</view>
